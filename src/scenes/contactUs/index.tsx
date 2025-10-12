@@ -144,7 +144,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
             }}
             >
                 <div 
-                className="md:before:content-evolvetext w-full 
+                className="md:content-evolvetext w-full 
                 before:absolute before:-bottom-20 before:-right-10
                 before:z-[-1]"
                 >

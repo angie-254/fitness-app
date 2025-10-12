@@ -40,13 +40,13 @@ const Home = ( {setSelectedPage}: Props) => {
             }}
             >
                 <div className="relative ">
-                  <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
+                  <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:content-evolvetext">
                     <img alt="home-page-text" src={HomePageText} />
                   </div>  
                 </div>
                  <p className="mt-8 text-sm">
               Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
-              Studios to get the Body Shapes That you Dream of.. Get Your Dream
+              Studios to get the Body Shapes That you Dream of. Get Your Dream
               Body Now.
             </p>
             </motion.div>
@@ -76,8 +76,7 @@ const Home = ( {setSelectedPage}: Props) => {
             </div>
 
              {/* IMAGE */}
-        <div className="flex basis-3/5 justify-center md:z-10
-        md:ml-40 md:mt-16 md:justify-items-end">
+        <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
           <img alt="home-pageGraphic" src={HomePageGraphic} />
         </div>
         </motion.div>
