@@ -105,7 +105,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
                         </p>
                      )}
 
-                     <input
+                     <textarea
                     className={inputStyles}
                     placeholder="MESSAGE"
                     rows={4}
